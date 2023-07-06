@@ -7,7 +7,7 @@
 <title>톺아보기</title>
 	<link rel="stylesheet" type="text/css" href="./css/detail.css">
 	
-</head>
+</head>     
 <body>
 	<jsp:include page="menu.jsp"/>
 	<h2>톺아보기 > 새로운 소식</h2>

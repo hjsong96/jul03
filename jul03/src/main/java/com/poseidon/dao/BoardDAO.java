@@ -114,7 +114,7 @@ public class BoardDAO {
 			pstmt.setString(1, dto.getBtitle());
 			pstmt.setString(2, dto.getBcontent());
 			pstmt.setString(3, dto.getBwrite());
-			result = pstmt.executeUpdate();
+			result = pstmt.executeUpdate(); //해당 코드 때문에 sql문 출력 
 			
 		} catch (SQLException e) {
 			e.printStackTrace();

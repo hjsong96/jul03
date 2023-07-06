@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;700&display=swap');
+
+
+.content {
+	margin: 0 auto;
+	width: 900px;
+	height: auto;
+	background: #FFFDE7;
+	padding: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.title {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	font-size: x-large;
+	border-bottom: 2px solid black;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bolder;
+}
+
+.write {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin : 20px;
+	
+}
+
+.bwrite, .blike {
+	width: 50%;
+	height: 30px; /* 높이 */
+	line-height: 30px; /* 높이랑 같이 감. 위아래 가운데 */
+	float: left;
+	font-weight: bolder;
+}
+
+.blike {
+	text-align: right;
+	
+}
+
+.date {
+	width: 100%;
+	line-height: 50px;
+	border-bottom: 1px solid gray;
+}
+
+.bcontent {
+	width: 100%;
+	height: auto;
+	line-height: auto;
+	min-height: 500px; /* 최저 높이 500  */
+}

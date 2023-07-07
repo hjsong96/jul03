@@ -31,12 +31,7 @@
 		<div class="bcontent">
 			${detail.bcontent }
 			<br>
-			<%
-			for (int i = 0; i < 100; i++) {%>
-				<img alt="이미지없음" src="./muzi.png">
-				
-				
-			<% }%>
+
 			
 			
 			

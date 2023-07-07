@@ -45,7 +45,14 @@ public class Write extends HttpServlet {
 			{
 			BoardDTO dto = new BoardDTO();
 			dto.setBtitle(request.getParameter("title"));
-			dto.setBcontent(request.getParameter("content"));
+			//엔터키 처리 합니다. \n -> <br>
+			String content = request.getParameter("content");
+			content = content.replace("\n", "<br>");
+			// \n \n\r
+			//replace 모두 바꿔줘요
+			//replaceAll 모두 바꿔줘요. + 정규식
+			//replaceFirst 하나만 바꿔요.
+			dto.setBcontent(content);
 			dto.setBwrite("부탁하는 무지");// 나중에 수정해야 합니다.
 
 			// DAO

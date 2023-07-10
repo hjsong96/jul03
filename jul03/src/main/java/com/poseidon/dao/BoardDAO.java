@@ -133,4 +133,8 @@ public class BoardDAO {
 		//java -> 서블릿 -> jsp -> 스트럿츠 -> 
 		return result;
 	}
+	
+	public int delete(int converBno) {
+		return 0;
+	}
 }

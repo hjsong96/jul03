@@ -62,8 +62,9 @@ li a{
 			<ul>
 				<li onclick="location.href='./'"><img src="./apple.png" alt="HOME"></li>
 				<li><a href="./main.jsp">Main</a></li>
-				<li onclick="location.href='./semantic.jsp'">semantic</li>
+				<li onclick="location.href='./team'">팀뽑기</li>
 				<li onclick="location.href='./board'">게시판</li>
+				<li onclick="location.href='./semantic.jsp'">semantic</li>
 				<li>Watch</li>
 				<li>Vision</li>
 			</ul>

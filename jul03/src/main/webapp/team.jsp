@@ -55,7 +55,7 @@ function check() {
 	<h1>팀뽑기</h1>
 	<div class="names">
 		<form action="./team" method="post" onsubmit="return check()">
-			<input type="text" name="names" required="required"
+			<input type="text" name="names" 
 				value="구관모,기상민,김민성,김수진,김요한,박지윤,배기주,송다원,송재윤,송화진,안희진,유영조,유종휘,이대원,이상화,이승현,이지선,정대규,정준식,최범식,최지은,표해현,차승리,황선우,박채아">
 			<button>팀 만들기</button>
 		</form>
@@ -72,6 +72,7 @@ function check() {
 	<%-- <%=list %> --%>
 	<%
 	if (list != null) {//에러가 나서 미리 처리하고 가겠습니다. 
+						//리스트에 뭔가 있을때 실행해라 
 	%>
 	<table border="1">
 		<tr>

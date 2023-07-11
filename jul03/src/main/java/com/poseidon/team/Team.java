@@ -31,13 +31,14 @@ public class Team extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		//한글처리 UTF-8
 		request.setCharacterEncoding("UTF-8");
-		//System.out.println(request.getParameter("names"));
+		System.out.println(request.getParameter("names"));
 		//콤마가 있는지 여부를 검사해서 로직을 진행시키려고 합니다.
 		//System.out.println(request.getParameter("names").contains(","));
 		if (request.getParameter("names").contains(",")) {
 			String names = request.getParameter("names");
 			//System.out.println("names 길이 : " + names.length());
 			//공백 홍길동 홍길동 홍길동
+			names.replaceAll(" ","");
 			String[] namesArr = names.split(",");
 			System.out.println("배열 길이 : " + namesArr.length);
 			
